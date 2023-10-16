@@ -1,0 +1,16 @@
+GET http://localhost:8000/
+
+###
+
+GET http://localhost:8000/5X
+
+### 
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+    "pro_name":"One Plus",
+    "pro_model":"8T",
+    "pro_price":35000,
+    "pro_size":6.7
+}
